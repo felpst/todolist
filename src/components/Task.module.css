@@ -1,0 +1,54 @@
+.task {
+    width: 46rem;
+    padding: 1rem;
+    background: var(--gray-500); 
+    border-radius: 8px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray-100);
+}
+
+.task p {
+    width: 100%;
+}
+
+.checkClicked {
+    background: transparent;
+    color: transparent;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    border-style: solid;
+    border-color: var(--blue-300);
+}
+
+.checkNotClicked {
+    background: var(--purple-300);
+    color: var(--gray-100);
+    width: 1rem;
+    height: 1rem;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    border-style: solid;
+    border-color: var(--purple-300);
+}
+
+.textChecked {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.trashButton {
+    padding: 0.375rem 0.3125rem;
+    background: transparent;
+    color: var(--gray-300);
+    border: none;
+}
